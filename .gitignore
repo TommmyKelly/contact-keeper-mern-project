@@ -1,1 +1,12 @@
 node_modules/
+
+/client/build
+
+.DS_Store
+/client/.env.local
+/client/.env.test.local
+/client/.env.production.local
+
+npm-debug.logs*
+yarn-debug.logs*
+yarn-error.logs*
