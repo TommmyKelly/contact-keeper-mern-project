@@ -4,6 +4,9 @@ const connectDB = require('./config/db')
 
 const app = express();
 
+//Init  Middelware
+app.use(express.json({ extended: false}))
+
 //Connect to db
 
 connectDB();
