@@ -11,7 +11,7 @@ app.use(express.json({ extended: false}))
 
 connectDB();
 
-app.get('/', (req, res)=> res.json({msg: 'welcome'}))
+
 
 //Define Routes
 
